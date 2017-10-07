@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Mode>0</Mode>
+  <Proportion>3</Proportion>
+  <Discount>0</Discount>
+  <Direction>1</Direction>
+  <Monitor>0</Monitor>
+  <WithOrder>1</WithOrder>
+  <EatMode>Q</EatMode>
+  <MaxCount>68</MaxCount>
+  <EatQDiscount>76</EatQDiscount>
+  <EatQLimitStart>700</EatQLimitStart>
+  <EatWPDiscount>76</EatWPDiscount>
+  <EatWPLimitStart>300</EatWPLimitStart>
+  <EatWPLimitEnd>100</EatWPLimitEnd>
+  <EatQPDiscount>76</EatQPDiscount>
+  <EatQPLimitStart>400</EatQPLimitStart>
+  <BetQDiscount>106</BetQDiscount>
+  <BetQLimitStart>700</BetQLimitStart>
+  <BetWPDiscount>99</BetWPDiscount>
+  <BetWPLimitStart>300</BetWPLimitStart>
+  <BetWPLimitEnd>100</BetWPLimitEnd>
+  <BetQPDiscount>106</BetQPDiscount>
+  <BetQPLimitStart>400</BetQPLimitStart>
+</Config>

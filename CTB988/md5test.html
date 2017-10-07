@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MD5秘钥生存器材</title>
+		<script src="Scripts/md5.js"></script>
+		<script src="../js/jquery-1.7.1.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<input type="text" id="yuanwen"/>
+			<label id="md5text"></label>
+			<input type="button" id="btnCreate" />
+			<input id="AutoPingCang" type="checkbox" value="1" />自动平仓
+		</div>
+		<script language="JavaScript">
+			$("#btnCreate").bind("click",function(){
+				if($("#yuanwen").val().length>0){
+					$("#md5text").text(hex_md5($("#yuanwen").val()));
+				}
+			});
+		</script>
+	</body>
+</html>
